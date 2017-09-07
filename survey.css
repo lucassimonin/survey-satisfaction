@@ -1,0 +1,169 @@
+#survey {
+    top: initial;
+    left: auto;
+}
+#survey .modal-dialog {
+    margin-bottom:0px;
+}
+#survey .modal-title {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+#survey .modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+#survey .modal-content p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#survey .textarea {
+    display:none;
+    padding: 14px 20px 14px 20px;
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #777777;
+    background: #5e5e5e;
+    color: #fff;
+    margin: 0;
+}
+#survey textarea {
+    padding: 6px;
+    margin-top: 5px;
+}
+#survey  .modal-header {
+    background: #444444;
+    color: #fff;
+    border-bottom:0;
+    padding: 15px;
+}
+#survey  .modal-header .close {
+    margin-top:0;
+    color: #fff;
+}
+#survey  .modal-body {
+    padding: 0;
+}
+#survey .form-check {
+    height: 45px;
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #777777;
+    background: #5e5e5e;
+    color: #fff;
+    margin: 0;
+}
+#survey .form-check:hover {
+background: #777777; 
+}
+#survey .form-check label {
+    width:100%;
+    padding:0.657rem 0 0.657rem 1.25rem;
+}
+#survey .btn {
+    padding: 4px 12px;
+}
+#survey .modal-footer {
+    border-top: 1px solid #444444;
+    background: #444444;
+    padding: 10px 15px;
+}
+.success-msg {
+    display:none;
+    text-align: center;
+    background: #444444;
+    padding: 20px;
+}
+.success-msg p {
+    font-size:13px;
+    color:#fff;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+.modal-backdrop {
+    background-color:transparent;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+@-webkit-keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+}
+@media (min-width: 768px) {
+    #survey .modal-dialog {
+        width: 300px;
+    }
+}
+@media (max-width: 767px) {
+    #survey .modal-dialog {
+        width: 180px;
+    }
+}
